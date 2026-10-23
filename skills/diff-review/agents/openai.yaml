@@ -1,0 +1,6 @@
+interface:
+  display_name: "Diff Review · Diff 审阅工具"
+  short_description: "Open local diffs, annotate lines, and copy review feedback to AI."
+  default_prompt: "Use $diff-review to 给我本次修改的本地审阅链接，审阅后我会复制报告回来。"
+policy:
+  allow_implicit_invocation: true

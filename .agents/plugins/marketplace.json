@@ -1,0 +1,10 @@
+{
+  "name": "castaneag-tools",
+  "interface": {"displayName": "CastaneaG Tools"},
+  "plugins": [{
+    "name": "diff-review",
+    "source": {"source": "local", "path": "./"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "diff-review",
+  "version": "0.1.0",
+  "description": "Open a local diff review link, annotate lines, and copy a human review report back to AI.",
+  "author": {"name": "CastaneaG"},
+  "skills": "./skills/",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Diff Review · Diff 审阅工具",
+    "shortDescription": "Review local changes, annotate lines, and export feedback for AI.",
+    "developerName": "CastaneaG",
+    "category": "Productivity",
+    "brandColor": "#317CFF",
+    "defaultPrompt": ["通过 diff 审阅工具方式让我审阅本次修改，给我本地链接。"]
+  }
+}
